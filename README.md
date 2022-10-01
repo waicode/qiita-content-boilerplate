@@ -1,0 +1,1 @@
+# qiita-content-boilerplate
