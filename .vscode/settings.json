@@ -1,0 +1,18 @@
+{
+  "workbench.colorCustomizations": {
+    // Qiita theme
+    "editor.background": "#fff",
+    "statusBar.background": "#56C501",
+    "sideBar.background": "#F5F6F6"
+  },
+  "markdownlint.config": {
+    "line-length": {
+      // MD013: Adjust the maximum number of characters per sentence
+      "line_length": 120
+    },
+    "no-duplicate-heading": false, // MD024: Allow duplicate heading text
+    "no-trailing-punctuation": false, // MD026: Allow headings with . ,;:
+    "no-inline-html": false, // MD033: Allow HTML description
+    "no-bare-urls": false // MD034: Allow URLs to be written as is
+  }
+}
