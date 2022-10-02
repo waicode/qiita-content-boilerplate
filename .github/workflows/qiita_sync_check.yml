@@ -1,9 +1,9 @@
 name: Qiita Sync Check
 
 on:
-  schedule:
-    # If all users work at the same time, GitHub and Qiita will be overloaded at the same time.
-    - cron: "29 19 * * *" # JST 4:29 <- Change, please.
+  # schedule:
+  #   # If all users work at the same time, GitHub and Qiita will be overloaded at the same time.
+  #   - cron: "29 19 * * *" # JST 4:29 <- Change, please.
   workflow_run:
     workflows: ["Qiita Sync"]
     types:
