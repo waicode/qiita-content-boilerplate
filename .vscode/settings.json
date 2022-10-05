@@ -1,10 +1,23 @@
 {
+  // Markdown word wrap & suggestions
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": true,
+      "strings": true
+    },
+    "editor.snippetSuggestions": "top"
+  },
+
+  // Qiita theme
   "workbench.colorCustomizations": {
-    // Qiita theme
     "editor.background": "#fff",
     "statusBar.background": "#56C501",
     "sideBar.background": "#F5F6F6"
   },
+
+  // Markdownlint
   "markdownlint.config": {
     "line-length": {
       // MD013: Adjust the maximum number of characters per sentence

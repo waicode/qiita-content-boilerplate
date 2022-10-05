@@ -1,0 +1,28 @@
+{
+  "name": "qiita-content-boilerplate",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Qiita content boilerplate",
+  "repository": "https://github.com/waicode/qiita-content-boilerplate.git",
+  "author": "waicode",
+  "scripts": {
+    "lint:markdown": "markdownlint-cli2 \"**/*.md\"",
+    "lint:text": "textlint \"**/*.md\"",
+    "lint:prettier": "prettier --ignore-path .prettierignore --check .",
+    "lint:cspell": "cspell \"**\" .",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "cspell": "^6.12.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "markdownlint-cli2": "^0.5.1",
+    "prettier": "^2.7.1",
+    "textlint": "^12.2.2",
+    "textlint-filter-rule-comments": "^1.2.2",
+    "textlint-rule-preset-ja-spacing": "^2.2.0",
+    "textlint-rule-preset-ja-technical-writing": "^7.0.0",
+    "textlint-rule-prh": "^5.3.0"
+  },
+  "license": "MIT"
+}

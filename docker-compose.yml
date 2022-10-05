@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  qiita:
+    container_name: qiita
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    volumes:
+      - .:/workspace:delegated
+      - node_modules:/workspace/node_modules
+    ports:
+      - 8000:8000
+    restart: always
+
+volumes:
+  node_modules:

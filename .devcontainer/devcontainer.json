@@ -1,0 +1,110 @@
+{
+  "dockerComposeFile": ["../docker-compose.yml", "docker-compose.yml"],
+  "service": "qiita",
+  "workspaceFolder": "/workspace",
+  "extensions": [
+    ////
+    ///  Preview
+    //
+
+    // Qiita Markdown Preview
+    // https://marketplace.visualstudio.com/items?itemName=ryokat3.vscode-qiita-markdown-preview
+    "ryokat3.vscode-qiita-markdown-preview",
+
+    // Markdown Emoji
+    // https://marketplace.visualstudio.com/items?itemName=bierner.markdown-emoji
+    "bierner.markdown-emoji",
+
+    // Markdown Footnotes
+    // https://marketplace.visualstudio.com/items?itemName=bierner.markdown-footnotes
+    "bierner.markdown-footnotes",
+
+    ////
+    ///  Writing(Markdown, HTML)
+    //
+
+    // Markdown All in One
+    // https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one
+    "yzhang.markdown-all-in-one",
+
+    // :emojisense:
+    // https://marketplace.visualstudio.com/items?itemName=bierner.emojisense
+    "bierner.emojisense",
+
+    // Insert Date String
+    // https://marketplace.visualstudio.com/items?itemName=jsynowiec.vscode-insertdatestring
+    "jsynowiec.vscode-insertdatestring",
+
+    // Copy file name
+    // https://marketplace.visualstudio.com/items?itemName=nemesv.copy-file-name
+    "nemesv.copy-file-name",
+
+    // Path Intellisense
+    // https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense
+    "christian-kohler.path-intellisense",
+
+    // markdownlint
+    // https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint
+    "davidanson.vscode-markdownlint",
+
+    // vscode-textlint
+    // https://marketplace.visualstudio.com/items?itemName=taichi.vscode-textlint
+    "taichi.vscode-textlint",
+
+    // Prettier - Code formatter
+    // https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+    "esbenp.prettier-vscode",
+
+    // Code Spell Checker
+    // https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
+    "streetsidesoftware.code-spell-checker",
+
+    ////
+    /// Git
+    //
+
+    // GitLens — Git supercharged
+    // https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
+    "eamodio.gitlens",
+
+    // gitignore
+    // https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore
+    "codezombiech.gitignore",
+
+    // GitHub Pull Requests and Issues
+    // https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github
+    "github.vscode-pull-request-github",
+
+    // Git Graph
+    // https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph
+    "mhutchie.git-graph",
+
+    ////
+    /// Docker
+    //
+
+    // Docker
+    // https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker
+    "ms-azuretools.vscode-docker",
+
+    // Dev Containers
+    // https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers
+    "ms-vscode-remote.remote-containers",
+
+    ////
+    /// Other
+    //
+
+    // Output Colorizer
+    // https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer
+    "ibm.output-colorizer",
+
+    // Todo Tree
+    // https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree
+    "gruntfuggly.todo-tree",
+
+    // Japanese Language Pack for Visual Studio Code
+    // https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-ja
+    "ms-ceintl.vscode-language-pack-ja"
+  ]
+}
