@@ -87,6 +87,10 @@ on:
 | [Copy file name](https://marketplace.visualstudio.com/items?itemName=nemesv.copy-file-name) | ファイル名を右クリックメニューからコピー|
 | [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) | パスを入力補完 |
 
+拡張機能の使い方は以下の記事で動画付きで詳しく解説しています。よければ参考にしてください。
+
+[**Markdown（マークダウン）をVSCodeの拡張機能とスニペットで効率良く書く**](https://qiita.com/waicode/items/1310d3f0aeb24f393b88)
+
 #### 独自のマークダウン記法はVSCodeスニペットで
 
 `.vscode/markdown.code-snippets` にQiita独自の記法を含むマークダウン記法のスニペットを登録しています。
