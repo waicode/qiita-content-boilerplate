@@ -1,6 +1,8 @@
 # qiita-content-boilerplate
 
-VSCodeとDocker（devcontainer）で書くQiita執筆環境のボイラープレートです。このテンプレートを複製して、すぐに記事を書きはじめることができます。
+<img width="1624" alt="qiita-content-boilerplate_vscode_screenshot" src="https://user-images.githubusercontent.com/3455992/194735077-de194f7f-6f71-41ae-813e-b8a715bcd86d.png">
+
+VSCodeとDocker（devcontainer）で書く**Qiita執筆環境のボイラープレート**です。このテンプレートを複製して、すぐに記事を書きはじめることができます。
 
 * Qiitaの執筆に便利なVSCode拡張機能やスニペットが自動的にインストールされます。
 * VSCodeの見た目はQiitaのテーマカラーに合わせています。
@@ -18,13 +20,13 @@ VSCodeとDocker（devcontainer）で書くQiita執筆環境のボイラープレ
 
 VSCodeからコンテナにアクセスして執筆するため、[Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)のVSCode拡張機能も必要です。
 
-利用にあたって、ローカル環境にVSCodeとDockerが準備されていることを前提としています。
+利用にあたって、**ローカル環境にVSCodeとDockerが準備されていること**を前提としています。
 
 ## 使い方
 
-まずは右上の"Use this template"をクリックして、このボイラープレートからリポジトリを複製します。
+まずは右上の **"Use this template"** をクリックして、このボイラープレートからリポジトリを複製します。
 
-VSCodeで複製したリポジトリをクローンして"Reopen in Container"でコンテナを立ち上げます。
+VSCodeで複製したリポジトリをクローンして **"Reopen in Container"** でコンテナを立ち上げます。
 
 コンテナを立ち上げると `docker/Dockerfile` の内容に基づきコンテナ環境を構築します。`package.json` に書かれたライブラリがインストールされます。また `devcontainer.json` に書かれた設定によって、VSCode拡張機能がインストールされます。
 
@@ -54,7 +56,7 @@ on:
 
 また[Qiita Markdown Preview](https://marketplace.visualstudio.com/items?itemName=ryokat3.vscode-qiita-markdown-preview)の拡張機能を入れています。VSCodeのプレビュー機能で、実際にQiitaに記事が表示される際の見た目で確認できます。この拡張機能もQiita Syncと同じ方が製作しています。
 
-記事を書く際は、Qiitaに最適化されたVSCode拡張機能やスニペットを使うと便利です。また、コミット時に静的解析（lint）がかかります。文章が不正な場合、警告メッセージが表示されてコミットできません。
+記事を書く際は、**Qiitaに最適化されたVSCode拡張機能やスニペットを使う**と便利です。また、**コミット時に静的解析（lint）が実行**されます。文章が不正な場合、警告メッセージが表示されてコミットできません。
 
 詳しい設定について、後述していきます。
 
@@ -78,16 +80,16 @@ on:
 
 `.vscode/markdown.code-snippets` にQiita独自の記法を含むマークダウン記法のスニペットを登録しています。
 
-Qiitaで使えるマークダウン記法は以下の記事を参考にしてください。
+Qiitaで使えるマークダウン記法はQiita公式が書いた以下の記事を参考にしてください。
 
 [Markdown記法 チートシート](https://qiita.com/Qiita/items/c686397e4a0f4f11683d)
 
 ### 静的解析（lint）の設定
 
-このボイラープレートには、以下についてlintする設定が入っています。
+このボイラープレートには、以下に対してlintする設定が入っています。
 
-* マークダウンの構造（`markdownlint`）
-* 文章の内容（`textlint`）
+* マークダウンの形式（`markdownlint`）
+* 文章の校正（`textlint`）
 * 英単語の誤字（`cspell`）
 
 また、マークダウンファイル以外はコードフォーマット（自動整形）を `prettier` を使って実施します。マークダウンファイルはmarkdownlintと設定が競合するため、意図的に対象から外しています。
@@ -109,7 +111,7 @@ Qiitaで使えるマークダウン記法は以下の記事を参考にしてく
 
 #### lintの詳細設定
 
-ボイラープレートなので、そのまま使えます。使っていきながら、好みの設定に書き換えてください。
+ボイラープレートなので、特に設定を変更せずそのまま使えます。使っていきながら、好みの設定に書き換えてください。
 
 ##### markdownlint
 
