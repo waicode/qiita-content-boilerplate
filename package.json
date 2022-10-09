@@ -3,8 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "description": "Qiita content boilerplate",
-  "repository": "https://github.com/waicode/qiita-content-boilerplate.git",
-  "author": "waicode",
   "scripts": {
     "lint:markdown": "markdownlint-cli2 \"**/*.md\"",
     "lint:text": "textlint \"**/*.md\"",
