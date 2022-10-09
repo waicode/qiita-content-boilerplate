@@ -26,7 +26,18 @@ VSCodeからコンテナにアクセスして執筆するため、[Dev Container
 
 まずは右上の **"Use this template"** をクリックして、このボイラープレートからリポジトリを複製します。
 
+<div align="center">
+<kbd>
+<img width="1512" alt="qiita-content-boilerplate_use_this_template_screenshot" src="https://user-images.githubusercontent.com/3455992/194735757-4f848f85-0eb5-404e-8c00-796745f32e49.png" style="width:80%;"></kbd>
+</div>
+
+<br />
+
 VSCodeで複製したリポジトリをクローンして **"Reopen in Container"** でコンテナを立ち上げます。
+
+![qiita-template_devcontainerの起動](https://user-images.githubusercontent.com/3455992/194735782-bbaf9790-1b5c-4f79-baae-0cb2b7401ae4.gif)
+
+<br />
 
 コンテナを立ち上げると `docker/Dockerfile` の内容に基づきコンテナ環境を構築します。`package.json` に書かれたライブラリがインストールされます。また `devcontainer.json` に書かれた設定によって、VSCode拡張機能がインストールされます。
 
