@@ -6,7 +6,7 @@ VSCodeとDocker（devcontainer）で書く**Qiita執筆環境のボイラープ�
 
 * Qiitaの執筆に便利なVSCode拡張機能やスニペットが自動的にインストールされます。
 * VSCodeの見た目はQiitaのテーマカラーに合わせています。
-* [Qiita Sync](https://github.com/ryokat3/qiita-sync) を使って、マークダウンで書いた記事をQiitaへ投稿（同期）できます。
+* [Qiita Sync](https://github.com/ryokat3/qiita-sync)を使って、マークダウンで書いた記事をQiitaへ投稿（同期）できます。
 * [Qiita Markdown Preview](https://marketplace.visualstudio.com/items?itemName=ryokat3.vscode-qiita-markdown-preview)を使ってローカル環境でプレビューを確認しながら記事を書くことができます。
 * 記事の内容は `markdownlint`, `textlint` でマークダウンの静的解析（lint）を行います。
 * 英単語の誤字がないか `cspell`（Code Spell Checker）でチェックをします。
@@ -41,7 +41,7 @@ VSCodeで複製したリポジトリをクローンして **"Reopen in Container
 
 コンテナを立ち上げると `docker/Dockerfile` の内容に基づきコンテナ環境を構築します。`package.json` に書かれたライブラリがインストールされます。また `devcontainer.json` に書かれた設定によって、VSCode拡張機能がインストールされます。
 
-ローカルのエディタでQiitaの記事が執筆できるように[Qiita Sync](https://github.com/ryokat3/qiita-sync) のGithubアクションを設定しています。
+ローカルのエディタでQiitaの記事が執筆できるように[Qiita Sync](https://github.com/ryokat3/qiita-sync)のGithubアクションを設定しています。
 
 Qiita SyncはQiita APIを活用した非公式の連携ツールです。Githubリポジトリにプッシュして同期アクションを実行すれば、連携したアカウントのQiita記事と同期されます。
 
