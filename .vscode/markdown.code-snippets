@@ -76,8 +76,14 @@
   },
   "descriptionList": {
     "prefix": "dl",
-    "body": ["<dl>", "  <dt>リンゴ</dt>", "  <dd>赤いフルーツ</dd>", "  <dt>オレンジ</dt>", "  <dd>橙色のフルーツ</dd>", "</dl>"],
+    "body": [
+      "<dl>",
+      "  <dt>リンゴ</dt>",
+      "  <dd>赤いフルーツ</dd>",
+      "  <dt>オレンジ</dt>",
+      "  <dd>橙色のフルーツ</dd>",
+      "</dl>"
+    ],
     "description": "Description List（Qiita）"
-  },
-
+  }
 }
