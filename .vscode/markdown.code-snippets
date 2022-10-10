@@ -56,7 +56,7 @@
   },
   "qiitaDetails": {
     "prefix": "qiita-details",
-    "body": ["```<details><summary></summary>", "", "</details>"],
+    "body": ["<details><summary></summary>", "", "</details>"],
     "description": "Details（Qiita）"
   },
   "qiitaNoteInfo": {
